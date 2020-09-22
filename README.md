@@ -35,12 +35,10 @@ Git can be very confusing to learn at first, the most common problem with learni
 The first thing you need to better understand both the command line, and git, is the structure of files in a computer
 
 There are two primary commands that can be used to navigate the file structure of a git repository
-```
-ls : lists all files and directories that are direct children of the current directory 
-```
-```
-cd <directory> : Navigates you to the directory you pass to the command as an argument. This is relative to where you currently exist in the file system.
-```
+
+```ls```:lists all files and directories that are direct children of the current directory 
+
+```cd <directory>```:This command navigates you around the command line.
 ####
 
 
@@ -48,4 +46,59 @@ cd <directory> : Navigates you to the directory you pass to the command as an ar
 
 Git has a range of commands, here we are going to try to cover the essential commands and when you would commonly use each one
 
+```git init```: Creates a git repository in the current directory<br/>
+```git clone <repository-url>```: Downloads a remote git repository into the current directory</br>
+```git status```: Shows information about the git repository and files that are modified or staged<br/>
+```git commit -m "Message"```: Creates a new git commit<br/>
+```git add <file>```: Adds files to staging<br/>
+```git branch```: shows branches<br/>
+```git branch <branch-name>```: Creates new branch<br/>
+```git checkout <branch-name>```: Switch to branch<br/>
+```git merge <branch-name>```: Merges branch into current branch<br/>
+```git rebase <branch-name>```: Moves branch onto a new base<br/>
+```git stash```: Moves changes from working-directory<br/>
+```git stash pop```: Re-applies previously stashed changes<br/>
+
+## Resources for learning git
+
+These resources should be a great start and get you to understand the essentials of git. It is important to remember that the fastest way to learn is to try things yourself. I would reccomend creating a github account if you do not have one and start writing code in a git repository. This way, you can track changes over time, as well as have a nice portfolio for employers to look at! In addition, you will certainly run into scenarios that will cause you to learn more about git.
+
+[MIT Lecture on Version Control](https://www.youtube.com/watch?time_continue=5&v=2sjqTHE0zok&feature=emb_logo)
+[Interactive Git Branching Tutorial](https://learngitbranching.js.org/)
+[Linkedin Learning Course on Git](https://www.linkedin.com/learning/git-essential-training-the-basics/use-git-version-control-software-to-manage-project-code?u=2212297)
+
+
 ## Exercises
+
+### Exercise 1: Local Git
+
+a. Create an empty directory<br>
+b. Initialize it as a git repository<br>
+c. Create a file called Learn-Git.txt<br>
+d. Open the file with a text editor and write some text into the first line of the file<br>
+e  Stage your changes<br>
+f. Commit the changes you made to the master branch<br>
+g. Create a new branch called feature1<br>
+h. Create a new branch called feature2<br>
+i. Switch to the feature1 branch that you just created<br>
+j. Delete the text in Learn-Git.txt and replace it with a different string of text<br>
+k. Stage your changes and commit them to the local branch<br>
+l. Switch to the master branch<br>
+m. Merge your changes from feature1's branch (there will be a merge conflict you need to resolve)<br>
+n. Switch to the feature2 branch<br>
+o. Open Learn-Git.txt and add some text on line 2<br>
+p. Stage and commit your changes<br>
+q. Rebase your changes on master<br>
+r. Switch to the master branch<br>
+s. Merge feature2 into master. There should be no conflicts, ask yourself why not?<br>
+
+### Exercise 2: Working with a remote repository
+
+a. Clone this repository following [this link](https://github.com/Wentworth-Computer-Science-Society/Learn-Git)<br>
+b. Create a new branch named as FirstName-LastName<br>
+c. Open People.md<br>
+d. Add your name to the file on a new line<br>
+e. Stage your changes<br>
+f. Commit your changes and push the branch to the remote repository<br>
+g. Go to [the repository url](https://github.com/Wentworth-Computer-Science-Society/Learn-Git) and create a pull request to merge your changes into the master branch<br>
+h. Check back and you will see when the changes are merged in :)<br>
