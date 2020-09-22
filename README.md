@@ -4,7 +4,7 @@
 
 Version Control Systems help developers track changes made to a codebase over time. Having a history of your project can help you to revert changes, version your releases and identify where bugs may have appeared. In addition to having a historical view of your project, you also gain the ability to collaborate with others. This is where the power of git really begins to shine. Developers can work in parallel in the same codebase to develop features and can merge those changes together using version control software. Git is the most popular version control system and is widely adopted by many companies across the world. In fact, this file that you are currently reading is a git repository itself, hosted on GitHub, a website for hosting git repositories in the cloud. 
 
-In this tutorial, we will be covering what git is, how you can use git to collaborate with others, and then go into some common scenarios where git help save you time. At the end, we have some exercises for you to work through.
+This is an extension of a wentworth computer science society meeting. The meeting link will be added here once the time is passed
 
 ## Getting started Instructions
 To begin with, we need to install git onto our local machines
@@ -84,13 +84,15 @@ i. Switch to the feature1 branch that you just created<br>
 j. Delete the text in Learn-Git.txt and replace it with a different string of text<br>
 k. Stage your changes and commit them to the local branch<br>
 l. Switch to the master branch<br>
-m. Merge your changes from feature1's branch (there will be a merge conflict you need to resolve)<br>
+m. Merge your changes from feature1's branch<br>
 n. Switch to the feature2 branch<br>
 o. Open Learn-Git.txt and add some text on line 2<br>
 p. Stage and commit your changes<br>
-q. Rebase your changes on master<br>
-r. Switch to the master branch<br>
-s. Merge feature2 into master. There should be no conflicts, ask yourself why not?<br>
+q. Switch to the master branch<br>
+r. Merge feature2 into master. There should be a merge conflict now. Now we are going to resolve this<br>
+s. Open the file with a text editor of your choice and change the file to keep both the incoming changes and remove the additional stuff git includes<br>
+t. Commit the changes<br>
+u. Congrats! You just learned how to branch, stage files, and merge changes!<br>
 
 ### Exercise 2: Working with a remote repository
 
