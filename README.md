@@ -63,9 +63,9 @@ Git has a range of commands, here we are going to try to cover the essential com
 
 These resources should be a great start and get you to understand the essentials of git. It is important to remember that the fastest way to learn is to try things yourself. I would reccomend creating a github account if you do not have one and start writing code in a git repository. This way, you can track changes over time, as well as have a nice portfolio for employers to look at! In addition, you will certainly run into scenarios that will cause you to learn more about git.
 
-[MIT Lecture on Version Control](https://www.youtube.com/watch?time_continue=5&v=2sjqTHE0zok&feature=emb_logo)
-[Interactive Git Branching Tutorial](https://learngitbranching.js.org/)
-[Linkedin Learning Course on Git](https://www.linkedin.com/learning/git-essential-training-the-basics/use-git-version-control-software-to-manage-project-code?u=2212297)
+[MIT Lecture on Version Control](https://www.youtube.com/watch?time_continue=5&v=2sjqTHE0zok&feature=emb_logo)<br>
+[Interactive Git Branching Tutorial](https://learngitbranching.js.org/)<br>
+[Linkedin Learning Course on Git](https://www.linkedin.com/learning/git-essential-training-the-basics/use-git-version-control-software-to-manage-project-code?u=2212297)<br>
 
 
 ## Exercises
